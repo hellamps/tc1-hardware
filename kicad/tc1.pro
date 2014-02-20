@@ -1,4 +1,4 @@
-update=Ср 19 фев 2014 16:36:21
+update=Чт 20 фев 2014 15:14:01
 version=1
 last_client=eeschema
 [cvpcb]
@@ -59,3 +59,4 @@ LibName2=libs/syms/resistors
 LibName3=libs/syms/usb
 LibName4=libs/syms/xmos
 LibName5=libs/syms/power
+LibName6=libs/syms/inductors
