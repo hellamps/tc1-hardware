@@ -1,4 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: Ср 19 фев 2014 16:34:11
+EESchema-DOCLIB  Version 2.0  Date: Чт 27 фев 2014 16:49:04
+#
+$CMP XS1-L6A-64-TQ48
+F https://www.xmos.com/en/download/public/XS1-U6A-64-FB96-Datasheet%28X4761F%29.pdf
+$ENDCMP
 #
 $CMP XS1-U6A-64-FB96
 F https://www.xmos.com/en/download/public/XS1-U6A-64-FB96-Datasheet%28X4761F%29.pdf
