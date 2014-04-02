@@ -1,4 +1,4 @@
-update=Вт 01 апр 2014 12:31:18
+update=Ср 02 апр 2014 10:33:55
 version=1
 last_client=eeschema
 [cvpcb]
@@ -61,3 +61,4 @@ LibName4=libs/syms/xmos
 LibName5=libs/syms/power
 LibName6=libs/syms/inductors
 LibName7=libs/syms/connectors
+LibName8=libs/syms/device
