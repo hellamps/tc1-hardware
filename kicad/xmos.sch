@@ -268,7 +268,7 @@ TCK
 Text Label 1100 4550 2    60   ~ 0
 ~DEBUG
 Text Label 1100 4650 2    60   ~ 0
-TDO
+TDO_L
 Text Label 1100 4750 2    60   ~ 0
 ~RST
 $Comp
@@ -420,53 +420,8 @@ Entry Wire Line
 	7250 3250 7350 3350
 Text Label 7350 3350 0    60   ~ 0
 XS1_CLK
-$Comp
-L NC7SZ157 U?
-U 1 1 533BB8B8
-P 1800 6000
-F 0 "U?" H 1600 5800 45  0000 C CNN
-F 1 "NC7SZ157" H 1650 6200 20  0000 C CNN
-F 2 "" H 1800 6000 60  0000 C CNN
-F 3 "" H 1800 6000 60  0000 C CNN
-	1    1800 6000
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	600  5900 700  6000
-Entry Wire Line
-	600  6000 700  6100
-Text Label 700  6000 0    60   ~ 0
-TDO_U
-Text Label 700  6100 0    60   ~ 0
-TDO_L
 Text Label 3050 4100 0    60   ~ 0
 TDO_U
-Entry Wire Line
-	2850 6000 2950 6100
-Text Label 2700 6000 0    60   ~ 0
-TDO
-$Comp
-L JUMPER JP?
-U 1 1 533BBB5D
-P 1650 5550
-F 0 "JP?" H 1650 5700 60  0000 C CNN
-F 1 "JUMPER" H 1650 5470 40  0000 C CNN
-F 2 "~" H 1650 5550 60  0000 C CNN
-F 3 "~" H 1650 5550 60  0000 C CNN
-	1    1650 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R?
-U 1 1 533BBB72
-P 1050 5650
-F 0 "R?" V 1130 5650 50  0000 C CNN
-F 1 "R" V 1050 5650 50  0000 C CNN
-F 2 "" H 1050 5650 60  0000 C CNN
-F 3 "" H 1050 5650 60  0000 C CNN
-	1    1050 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3850 1550 2200 1550
 Wire Wire Line
@@ -673,70 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 3350 8000 3350
 Wire Wire Line
-	1350 6000 700  6000
-Wire Wire Line
-	1350 6100 700  6100
-Wire Wire Line
-	2250 6000 2850 6000
-Wire Wire Line
-	1050 5900 1350 5900
-Wire Wire Line
-	1350 5900 1350 5550
-$Comp
-L DGND #PWR?
-U 1 1 533BBCEE
-P 2200 5600
-F 0 "#PWR?" H 2200 5600 40  0001 C CNN
-F 1 "DGND" H 2200 5530 40  0000 C CNN
-F 2 "" H 2200 5600 60  0000 C CNN
-F 3 "" H 2200 5600 60  0000 C CNN
-	1    2200 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 5550 2200 5550
-Wire Wire Line
-	2200 5550 2200 5600
-$Comp
-L DGND #PWR?
-U 1 1 533BBDF1
-P 1900 6300
-F 0 "#PWR?" H 1900 6300 40  0001 C CNN
-F 1 "DGND" H 1900 6230 40  0000 C CNN
-F 2 "" H 1900 6300 60  0000 C CNN
-F 3 "" H 1900 6300 60  0000 C CNN
-	1    1900 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR?
-U 1 1 533BBE77
-P 1050 5350
-F 0 "#PWR?" H 1050 5450 40  0001 C CNN
-F 1 "3V3" H 1050 5475 40  0000 C CNN
-F 2 "" H 1050 5350 60  0000 C CNN
-F 3 "" H 1050 5350 60  0000 C CNN
-	1    1050 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR?
-U 1 1 533BBE84
-P 1900 5750
-F 0 "#PWR?" H 1900 5850 40  0001 C CNN
-F 1 "3V3" H 1900 5875 40  0000 C CNN
-F 2 "" H 1900 5750 60  0000 C CNN
-F 3 "" H 1900 5750 60  0000 C CNN
-	1    1900 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5750 1900 5800
-Wire Wire Line
-	1050 5400 1050 5350
-Wire Wire Line
-	1900 6200 1900 6300
-Wire Wire Line
 	8000 3800 7350 3800
 Wire Wire Line
 	8000 3900 7350 3900
@@ -765,7 +656,7 @@ Text Label 7350 3800 0    60   ~ 0
 Text Label 7350 3900 0    60   ~ 0
 TCK
 Text Label 7350 4000 0    60   ~ 0
-TDI
+TDO_U
 Text Label 7350 4100 0    60   ~ 0
 TDO_L
 Text Label 7350 4200 0    60   ~ 0
@@ -867,4 +758,28 @@ Connection ~ 3550 3250
 NoConn ~ 3850 1750
 NoConn ~ 1900 1950
 NoConn ~ 3850 1850
+Wire Wire Line
+	6250 4650 6550 4650
+Wire Wire Line
+	6250 4750 6550 4750
+Wire Wire Line
+	6250 4850 6550 4850
+Wire Wire Line
+	6250 4950 6550 4950
+Entry Wire Line
+	6550 4650 6650 4750
+Entry Wire Line
+	6550 4750 6650 4850
+Entry Wire Line
+	6550 4850 6650 4950
+Entry Wire Line
+	6550 4950 6650 5050
+Text Label 6550 4650 2    60   ~ 0
+XL_UP1
+Text Label 6550 4750 2    60   ~ 0
+XL_UP0
+Text Label 6550 4850 2    60   ~ 0
+XL_DN0
+Text Label 6550 4950 2    60   ~ 0
+XL_DN1
 $EndSCHEMATC
