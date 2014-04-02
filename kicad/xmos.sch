@@ -782,4 +782,151 @@ Text Label 6550 4850 2    60   ~ 0
 XL_DN0
 Text Label 6550 4950 2    60   ~ 0
 XL_DN1
+Wire Wire Line
+	5400 950  5400 850 
+Wire Wire Line
+	5400 850  5600 850 
+Wire Wire Line
+	5500 750  5500 950 
+Wire Wire Line
+	5600 850  5600 950 
+Connection ~ 5500 850 
+Wire Wire Line
+	5700 950  5700 850 
+$Comp
+L 3V3 #PWR?
+U 1 1 533C00DE
+P 5700 850
+F 0 "#PWR?" H 5700 950 40  0001 C CNN
+F 1 "3V3" H 5700 975 40  0000 C CNN
+F 2 "" H 5700 850 60  0000 C CNN
+F 3 "" H 5700 850 60  0000 C CNN
+	1    5700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 533C00F5
+P 5500 750
+F 0 "#PWR?" H 5500 850 40  0001 C CNN
+F 1 "3V3" H 5500 875 40  0000 C CNN
+F 2 "" H 5500 750 60  0000 C CNN
+F 3 "" H 5500 750 60  0000 C CNN
+	1    5500 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 950  5100 850 
+Wire Wire Line
+	5100 850  5300 850 
+Wire Wire Line
+	5300 850  5300 950 
+Wire Wire Line
+	5200 750  5200 950 
+Connection ~ 5200 850 
+$Comp
+L 3V3 #PWR?
+U 1 1 533C02CA
+P 5200 750
+F 0 "#PWR?" H 5200 850 40  0001 C CNN
+F 1 "3V3" H 5200 875 40  0000 C CNN
+F 2 "" H 5200 750 60  0000 C CNN
+F 3 "" H 5200 750 60  0000 C CNN
+	1    5200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 950  4500 850 
+Wire Wire Line
+	4500 850  4600 850 
+Wire Wire Line
+	4600 850  4600 950 
+$Comp
+L TDK_MLZ2012A1R0W L?
+U 1 1 533C0415
+P 4100 900
+F 0 "L?" V 4200 1150 40  0000 C CNN
+F 1 "4u7" V 4200 900 40  0000 C CNN
+F 2 "" H 4100 900 60  0000 C CNN
+F 3 "" H 4100 900 60  0000 C CNN
+	1    4100 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TDK_MLZ2012A1R0W L?
+U 1 1 533C042C
+P 4100 650
+F 0 "L?" V 4200 900 40  0000 C CNN
+F 1 "4u7" V 4200 650 40  0000 C CNN
+F 2 "" H 4100 650 60  0000 C CNN
+F 3 "" H 4100 650 60  0000 C CNN
+	1    4100 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 900  4400 900 
+Connection ~ 4500 900 
+Wire Wire Line
+	4700 950  4700 650 
+Wire Wire Line
+	4700 650  4400 650 
+Wire Wire Line
+	4800 700  4800 950 
+Wire Wire Line
+	2850 700  4800 700 
+Wire Wire Line
+	3800 700  3800 650 
+Connection ~ 3800 700 
+Wire Wire Line
+	5000 750  5000 950 
+Wire Wire Line
+	3300 750  5000 750 
+Wire Wire Line
+	4900 750  4900 950 
+Connection ~ 4900 750 
+Wire Wire Line
+	3800 900  3800 750 
+Connection ~ 3800 750 
+$Comp
+L CPOL C?
+U 1 1 533C099E
+P 2850 900
+F 0 "C?" H 2900 1000 50  0000 L CNN
+F 1 "22u" H 2900 800 50  0000 L CNN
+F 2 "" H 2850 900 60  0000 C CNN
+F 3 "" H 2850 900 60  0000 C CNN
+	1    2850 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL C?
+U 1 1 533C09AB
+P 3300 950
+F 0 "C?" H 3350 1050 50  0000 L CNN
+F 1 "22u" H 3350 850 50  0000 L CNN
+F 2 "" H 3300 950 60  0000 C CNN
+F 3 "" H 3300 950 60  0000 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 533C09B1
+P 3050 1300
+F 0 "#PWR?" H 3050 1300 40  0001 C CNN
+F 1 "DGND" H 3050 1230 40  0000 C CNN
+F 2 "" H 3050 1300 60  0000 C CNN
+F 3 "" H 3050 1300 60  0000 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1100 2850 1200
+Wire Wire Line
+	2850 1200 3300 1200
+Wire Wire Line
+	3050 1200 3050 1300
+Wire Wire Line
+	3300 1200 3300 1150
+Connection ~ 3050 1200
 $EndSCHEMATC
