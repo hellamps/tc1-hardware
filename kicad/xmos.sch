@@ -399,7 +399,7 @@ F 1 "33p" H 3050 3150 50  0000 L CNN
 F 2 "" H 3000 3250 60  0000 C CNN
 F 3 "" H 3000 3250 60  0000 C CNN
 	1    3000 3250
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L DGND #PWR?
@@ -669,9 +669,7 @@ Wire Wire Line
 	2650 3250 2800 3250
 Connection ~ 3350 3250
 Wire Wire Line
-	3050 3700 3350 3700
-Wire Wire Line
-	3350 3700 3350 3250
+	3050 3700 3550 3700
 Wire Wire Line
 	7350 3350 8000 3350
 Wire Wire Line
@@ -863,4 +861,10 @@ Wire Wire Line
 	9900 1500 10150 1500
 Wire Wire Line
 	10150 1500 10150 1600
+Wire Wire Line
+	3550 3700 3550 3250
+Connection ~ 3550 3250
+NoConn ~ 3850 1750
+NoConn ~ 1900 1950
+NoConn ~ 3850 1850
 $EndSCHEMATC
