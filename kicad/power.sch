@@ -1,0 +1,151 @@
+EESchema Schematic File Version 2
+LIBS:capacitors
+LIBS:resistors
+LIBS:usb
+LIBS:xmos
+LIBS:power
+LIBS:inductors
+LIBS:connectors
+LIBS:device
+LIBS:tc1-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date "3 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CPOL C?
+U 1 1 533D145D
+P 2050 1750
+F 0 "C?" H 2100 1850 50  0000 L CNN
+F 1 "4u7" H 2100 1650 50  0000 L CNN
+F 2 "" H 2050 1750 60  0000 C CNN
+F 3 "" H 2050 1750 60  0000 C CNN
+	1    2050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533D1561
+P 2500 1750
+F 0 "C?" H 2550 1850 50  0000 L CNN
+F 1 "100n" H 2550 1650 50  0000 L CNN
+F 2 "" H 2500 1750 60  0000 C CNN
+F 3 "" H 2500 1750 60  0000 C CNN
+	1    2500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533D1587
+P 2850 1750
+F 0 "C?" H 2900 1850 50  0000 L CNN
+F 1 "100n" H 2900 1650 50  0000 L CNN
+F 2 "" H 2850 1750 60  0000 C CNN
+F 3 "" H 2850 1750 60  0000 C CNN
+	1    2850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533D158D
+P 3150 1750
+F 0 "C?" H 3200 1850 50  0000 L CNN
+F 1 "100n" H 3200 1650 50  0000 L CNN
+F 2 "" H 3150 1750 60  0000 C CNN
+F 3 "" H 3150 1750 60  0000 C CNN
+	1    3150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533D1593
+P 3450 1750
+F 0 "C?" H 3500 1850 50  0000 L CNN
+F 1 "100n" H 3500 1650 50  0000 L CNN
+F 2 "" H 3450 1750 60  0000 C CNN
+F 3 "" H 3450 1750 60  0000 C CNN
+	1    3450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 533D16BB
+P 3800 1750
+F 0 "C?" H 3850 1850 50  0000 L CNN
+F 1 "100n" H 3850 1650 50  0000 L CNN
+F 2 "" H 3800 1750 60  0000 C CNN
+F 3 "" H 3800 1750 60  0000 C CNN
+	1    3800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 533D16E8
+P 2050 1300
+F 0 "#PWR?" H 2050 1400 40  0001 C CNN
+F 1 "3V3" H 2050 1425 40  0000 C CNN
+F 2 "" H 2050 1300 60  0000 C CNN
+F 3 "" H 2050 1300 60  0000 C CNN
+	1    2050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 533D16F7
+P 2050 2200
+F 0 "#PWR?" H 2050 2200 40  0001 C CNN
+F 1 "DGND" H 2050 2130 40  0000 C CNN
+F 2 "" H 2050 2200 60  0000 C CNN
+F 3 "" H 2050 2200 60  0000 C CNN
+	1    2050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2200 2050 1950
+Wire Wire Line
+	2050 1550 2050 1300
+Wire Wire Line
+	2050 1400 3800 1400
+Wire Wire Line
+	2500 1400 2500 1550
+Connection ~ 2050 1400
+Wire Wire Line
+	2850 1400 2850 1550
+Connection ~ 2500 1400
+Wire Wire Line
+	3150 1400 3150 1550
+Connection ~ 2850 1400
+Wire Wire Line
+	3450 1400 3450 1550
+Connection ~ 3150 1400
+Wire Wire Line
+	3800 1400 3800 1550
+Connection ~ 3450 1400
+Wire Wire Line
+	2500 1950 2500 2050
+Wire Wire Line
+	2050 2050 3800 2050
+Connection ~ 2050 2050
+Wire Wire Line
+	2850 2050 2850 1950
+Connection ~ 2500 2050
+Wire Wire Line
+	3150 2050 3150 1950
+Connection ~ 2850 2050
+Wire Wire Line
+	3450 2050 3450 1950
+Connection ~ 3150 2050
+Wire Wire Line
+	3800 2050 3800 1950
+Connection ~ 3450 2050
+$EndSCHEMATC
